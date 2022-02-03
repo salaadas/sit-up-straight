@@ -1,0 +1,21 @@
+{
+  "name": "sit-up-straight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "dev": "canvas-sketch dist/sit-up-straight.js --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@types/node": "^17.0.14",
+    "canvas-sketch": "^0.7.4",
+    "canvas-sketch-cli": "^1.11.14",
+    "typescript": "^4.5.5"
+  }
+}
